@@ -1,0 +1,28 @@
+Ejercicio 1301--Ejercicio 1302
+
+Se define la funcion prueba, que recibe dos parametros (x,y). Esta funcion primero muestra las variables globales a y b por consola. Luego al valor del parametro x, le suma su valor mas 1 y al parametro y le suma su valor mas 2.
+retorna el valor de x e y.
+
+Al ejecutarse el programa, se importa la funcion para poder llamarla.
+se pide al usuario que ingrese dos numeros enteros. Que se guardan en la variable, a y b respectivamente.
+Se recorre el ciclo for 3 veces:
+	En la primer vuelta, se llama a la funcion prueba y se pasa como parametros x e y las variables a y b. (x=2 y=3) y se muestra por consola. Al ejecutarse la funcion en la primer vuelta se muestra a=2 b=3, luego x=2+1 y = 3+2 por lo que retorna, x=3 y=5.
+y antes de finalizar el ciclo se sobreescribe la variable a=2+2 y b=3+2
+	En la segunda vuelta se repite el proceso pero ahora los valores son: a=4 b=5 --- entonces ahora retorna x=5 y=7 y antes de terminar hace a=a+2 y b=b+2.
+	En la ultima vuelta repite el proceso y los valores cambian, a=6 y b= 7 entonces x es igual a 7 e y es igual a 9. a su vez ahora incrementa a y b en 2 por lo que finaliza en a=8 y b =9 pero esta vez no se muestra ya que la funcion no se ejecuta nuevamente.
+
+Ejercicio 1302:
+
+El procedimieiento es el mismo que en el ejercicio anterior, como ahora estoy asignando a las variables a y b, el resultado del return de la funcion, ademas de sumar 2 a cada variable antes de terminar, ahora su valor cambia con el return de la funcion.
+Por lo que los valores por vuelta serían.
+vuelta 1-- a=2 b=3    al iniciar la funcion
+	a=3 b=5 al sumar 1 y 2 con la funcion, ahora ese es el valor que se guarda en a y b, pero tambien se suma a+2 y b+2 antes de cerrar la primera vuelta, por lo que queda a=5 y b=7.
+vuelta 2--  entra como 5 y 7 se le suma 1 y 2 -- a=6 b=9
+despues de la funcion se suma 2 a cada variable -- a+2 = 8    b+2 =11   a=8 y b= 11
+vuelta 3--- entra como 8 y 11, se le suma 1y2 -- a= 9 y b=13 dentro de la funcion y luego se le suma 2 a cada variable,
+finalizando en a = 11 y b=15
+
+
+
+
+
