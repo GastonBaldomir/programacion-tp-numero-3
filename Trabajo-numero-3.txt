@@ -1,5 +1,4 @@
-Ejercicio 1301--Ejercicio 1302
-
+Ejercicio 1301-
 Se define la funcion prueba, que recibe dos parametros (x,y). Esta funcion primero muestra las variables globales a y b por consola. Luego al valor del parametro x, le suma su valor mas 1 y al parametro y le suma su valor mas 2.
 retorna el valor de x e y.
 
@@ -21,6 +20,28 @@ vuelta 2--  entra como 5 y 7 se le suma 1 y 2 -- a=6 b=9
 despues de la funcion se suma 2 a cada variable -- a+2 = 8    b+2 =11   a=8 y b= 11
 vuelta 3--- entra como 8 y 11, se le suma 1y2 -- a= 9 y b=13 dentro de la funcion y luego se le suma 2 a cada variable,
 finalizando en a = 11 y b=15
+
+Ejercicio 1303
+
+Al ejecutar el programa, en la primer linea importa la funcion para poder usarla, la misma fue definida antes arriba. Lo que hace esta funcion es evaluar el dato del dni para saber s tiene 8 caracteres.
+-Despues de importar la funcion, se declara la funcion mayor y se le asigna el valor -1.
+se pide al usuario que ingrese un dni.
+se ejecuta el siguiente bloque de codigo, con el condicional !=0, es decir que se repite hasta que se ingrese el valor 0.
+	si la funcion validar retorna true se pide que se ingrese un nombre y la edad. Si no, dice que es invalido y se pide que se ingrese otro.
+	si validar_dni, es true se pide que se ingrese un nombre y una edad, para evaluar si la edad ingresada es mayor a la que teniamos guardad, en este primer caso es mayor porque teniamos asignado el valor-1, asi que se guarda el valor y el nombre de la persona. La proxima vez que se ejecute el codigo con el siguiente dato, a traves de esa validacion, se va a asignar el valor de edad mayor con su respectivo nombre.
+finalmente cuando se ingresa 0 el bucle termina, no se ejecuta lo que esta dentro y se ejecuta el print final con el nombre de la persona mayor. 
+
+ 1) En este  caso, el resultado obtenido es: Nombre de la persona mayor: Carlos Alberto Fernandez.
+
+2) en este caso como el dni tiene 9 caracteres el if de validar_dni devuelve false, el resultado es que me pide que ingrese otro dni para poder evaluar. DNI invalido. Vuelva a ingresar.
+
+Ejercicio 1304
+
+1) Opcion uno, no devuelve el resultado esperado porque las variables a y b no llegan como parametro a la funcion, por eso nunca las lee.
+
+2)Opcion dos, en este caso el error es que a y b no se leen como a y b dentro de la funcion, si no que son x e y, entonces en el print al buscar la variable a y b no las tiene. a y b no existen en el ambito de la funcion.
+
+3) Este es el codigo de bloque correcto, que devuelve el resultado esperado segun la consigna.
 
 
 
